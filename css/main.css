@@ -1,0 +1,1309 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+.nav{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-name{
+    float: left;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    width: 15%;
+  /* margin: 0 0px; */
+    
+}
+.nav-link{
+    /* float: left; */
+    /* flex-wrap: wrap; */
+    width: 50%;
+    text-align: center;
+    margin: 0 100px;
+}
+.nav-moon{
+    /* float: right; */
+    /* flex-wrap: wrap; */
+    width: 15px;
+    /* margin: 10px 200px; */
+    margin: 5px 0;
+    font-size: 30px;
+}
+.clr{
+    clear: both;
+}
+.nav-link ul{
+    list-style-type: none;
+}
+.nav-link a{
+
+    font-size: 20px;
+}
+.nav-link ul li{
+    /* display: inline-block; */
+    margin: 10px;
+    /* display: flex; */
+}
+.nav{
+    padding:20px;
+    width: 100%;
+    /* position: fixed; */
+    background-color: white;
+   
+}
+.nav-link ul li a{
+    color:rgba(0, 0, 0, 0.556);
+    text-decoration: none;
+}  
+.pict img{
+    width: 100%;
+   
+}
+/* .pict img:hover{
+    animation: 1s infinite; */
+    
+  
+
+/* } */
+.header-contant{
+    width: 40%;
+    float: left;
+    text-align: center;
+}
+.pict{
+    width: 40%;
+   float: right;
+   text-align: center;
+}
+.header{
+    background-color:whitesmoke;
+    
+}
+.icon{
+    display: inline-block;
+    background:
+    radial-gradient(circle at center,white 45%,transparent 45%),
+    linear-gradient(to right,red 50%,rgb(255, 255, 255) 0);
+    border-radius: 50%;
+    padding: 10px;
+}
+.header-contant h2{
+    color: #37373f;
+    font-size: 50px;
+}
+.header-contant p{
+    color: #4f4f5a;
+    font-size: 20px;
+}
+.header-link1{
+    background-color: hsl( 0 , 84% , 44% );
+    border-radius: 0px 15px 15px 15px;
+    padding: 10px 15px;
+    color: white;
+}
+.header{
+    padding: 150px 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+/* .container8{
+    width: 85%;
+    margin: auto;
+} */
+.fa-solid{
+    color: black;
+}
+.header-link2{
+    color: black;
+}
+span{
+    color: red;
+    border-radius: 50%;
+}
+.nav-link ul li a:hover{
+    color: rgba(0, 0, 0, 0.938);
+}
+.header-link1:hover{
+    background-color: rgba(255, 0, 0, 0.878);
+}
+
+.pict:hover{
+    animation: movephoto 1s infinite ;
+}
+@keyframes movephoto {
+    0% {
+      transform: translate(1px, 1px) rotate(0deg);
+    }
+    10% {
+      transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    20% {
+      transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+      transform: translate(3px, 2px) rotate(0deg);
+    }
+    40% {
+      transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+      transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+      transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+      transform: translate(3px, 1px) rotate(-1deg);
+    }
+    80% {
+      transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+      transform: translate(1px, 2px) rotate(0deg);
+    }
+    100% {
+      transform: translate(1px, -2px) rotate(-1deg);
+    }
+  }
+  
+
+
+
+
+@media screen and (max-width:979px) and (min-width:768px) {
+   
+    .header-contant{
+        width: 40%;
+        float: left;
+
+text-align: center;
+}
+.pict{
+    width: 40%;
+   float: right;
+   text-align: center;
+
+}
+
+
+}
+
+@media screen and (max-width:767px) and (min-width:501px) {
+    .header-contant{
+        width: 100%;
+        float: left;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+.pict{
+    width: 100%;
+   float: right;
+   text-align: center;
+}
+.pict img{
+    width:100% ;
+}
+
+}
+@media screen and (max-width:500px) and (min-width:0px) {
+    .header-contant{
+        width: 100%;
+        float: left;
+        text-align: center;
+
+        margin-bottom: 30px;
+     }
+        .pict{
+            width: 100%;
+           float: right;
+           text-align: center;
+        }
+
+    
+}
+
+
+
+
+.Walter-White img{
+    width: 100%;
+}
+.Walter-White{
+    width:30%;
+    text-align: center;
+    float: left;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+     transition: transform1s;
+}
+.Sarah-Jhonson img{
+
+    width: 100%;
+}
+.Sarah-Jhonson{
+    width: 30%;
+    text-align: center;
+    float: left;
+    margin: 12px;
+     position: relative;
+     overflow: hidden;
+     transition: transform1s;
+}
+.William-Anderson img{
+    width: 100%;
+    float: left;
+}
+.William-Anderson{
+    width: 30%;
+    text-align: center;
+    float: left;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+    transition: transform1s;
+}
+.clr{
+    clear: both;
+}
+.chef-contant{
+    text-align: center;
+}
+.layre1 ul li i{
+    color: #37373f66;
+}
+.layre2 ul li i{
+    color: #37373f66;
+}
+.layre3 ul li i{
+    color: #37373f66;
+}
+.layre1{
+    position: absolute;
+    top: 100;
+    left:100%;
+   background-color: #ffffff4d;
+   color: #37373f66;
+   padding-right: 15px;
+   transition: left 1.5s;
+
+
+   
+   /* transform: 1.5s; */
+   
+}
+.Walter-White:hover .layre1{
+    top: 100;
+    left:75%;
+
+}
+.layre2{
+    position: absolute;
+    top: 100;
+    left: 100%;
+    background-color: #ffffff4d;
+    color: #37373f66;
+    padding-right: 15px;
+    transition: left 1.5s;
+
+}
+.Sarah-Jhonson:hover .layre2{
+
+    top: 100;
+    left:75%;
+
+}
+.layre3{
+    position: absolute;
+    top: 100;
+    left: 100%;
+    background-color: #ffffff4d;
+    color: #37373f66;
+    padding-right: 15px;
+    transition: left 1.5s;
+}
+.William-Anderson:hover .layre3{
+    top: 100;
+    left:75%;
+}
+.layre1 ul{
+    list-style-type: none;
+}
+.layre2 ul{
+    list-style-type: none;
+}
+.layre3 ul{
+    list-style-type: none;
+}
+.Walter-White p{
+    color: #7f7f90;
+}
+.William-Anderson p{
+    color: #7f7f90;
+}
+.Sarah-Jhonson p{
+    color: #7f7f90;
+}
+.chef-contant p{
+    color: #7f7f90; 
+}
+.chef-contant h2{
+    font-size: 30px;
+}
+.span505{
+    color: red;
+}
+.Walter-White:hover{
+    transform: scale(1.1);
+}
+.Sarah-Jhonson:hover{
+    transform: scale(1.1);
+}
+.William-Anderson:hover{
+    transform: scale(1.1);
+}
+.chefs{
+    margin-top: 60px;
+}
+.chef-contant{
+    margin-bottom: 20px;
+}
+.contact1{
+    text-align: center;
+}
+.map{
+    text-align: center;
+}
+.contact1 p{
+    color: rgba(0, 0, 0, 0.544);
+}
+.us{
+    color: red;
+}
+.contact1 h2{
+    font-size: 40px;
+}
+.clr{
+    clear: both;
+}
+.icon6{
+    width: 40%;
+    float: left;
+    background-color: whitesmoke;
+    padding: 25px;
+    margin: 10px;
+}
+.icon7{
+    width: 40%;
+    float: right;
+    background-color: whitesmoke;
+    padding: 25px;
+    margin: 10px;
+}
+.icon8{
+    width: 40%;
+    float: left;
+    background-color: whitesmoke;
+    padding: 25px;
+    margin: 10px;
+}
+.icon9{
+    width: 40%;
+    float: right;
+    background-color: whitesmoke;
+    padding: 25px;
+    margin: 10px;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+.icon5{
+    background-color: hsl( 0 , 84% , 44% );
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.AA
+{
+    background-color:hsl( 0 , 84% , 44% );
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.BB{
+    background-color:hsl( 0 , 84% , 44% );
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.CC{
+    background-color:hsl( 0 , 84% , 44% );
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.nn{
+    color: rgba(0, 0, 0, 0.733);
+    font-size: 20px;
+}
+@media screen and (max-width:979px) and (min-width:768px) {
+    .contact1 h2{
+        font-size: 40px;}
+        .icon6{
+            width: 40%;
+            float: left;
+            background-color: whitesmoke;
+            padding: 25px;
+            margin: 10px;
+        }
+        .icon7{
+            width: 40%;
+            float: left;
+            background-color: whitesmoke;
+            padding: 25px;
+            margin: 10px;
+        }
+        .icon8{
+            width: 40%;
+            float: left;
+            background-color: whitesmoke;
+            padding: 25px;
+            margin: 10px;
+        }
+        .icon9{
+            width: 40%;
+            float: left;
+            background-color: whitesmoke;
+            padding: 25px;
+            margin: 10px;
+        }
+        .map iframe{
+            width: 100%;
+        }
+   
+}
+@media screen and (max-width:767px) and (min-width:501px) {
+    .contact1 h2{
+        font-size: 40px;}
+        .icon6{
+            width: 35%;
+            float: left;
+            background-color: whitesmoke;
+            padding: 15px;
+            margin: 10px;
+        }
+        .icon7{
+            width: 35%;
+            float: left;
+            background-color: whitesmoke;
+            padding: 15px;
+            margin: 10px;
+        }
+        .icon8{
+            width: 35%;
+            float: left;
+            background-color: whitesmoke;
+            padding: 15;
+            margin: 10px;
+        }
+        .icon9{
+            width: 35%;
+            float: left;
+            background-color: whitesmoke;
+            padding: 15px;
+            margin: 10px;
+        }
+        
+        .map iframe{
+            width: 100%;
+        }
+  
+}
+@media screen and (max-width:500px) and (min-width:0px) {
+    .contact1 h2{
+        font-size: 30px;}
+        .icon6{
+            width: 100%;
+            float: left;
+            background-color: whitesmoke;
+            padding: 10px;
+            margin: 10px;
+        }
+        .icon7{
+            width: 100%;
+            float: left;
+            background-color: whitesmoke;
+            padding: 10px;
+            margin: 10px;
+        }
+        .icon8{
+            width: 100%;
+            float: left;
+            background-color: whitesmoke;
+            padding: 10px;
+            margin: 10px;
+        }
+        .icon9{
+            width: 100%;
+            float: left;
+            background-color: whitesmoke;
+            padding: 10px;
+            margin: 10px;
+        }
+        .map iframe{
+            width: 100%;
+        }
+ 
+}
+.contact{
+    margin-top: 60px;
+}
+
+
+
+
+
+
+.img5 img {
+    display: inline-block;
+    width: 4opx;
+    height: 40px;
+}
+
+.img5 h2 {
+    display: inline-block;
+    font-size: 30px;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.Mealify1 ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.Mealify1 {
+    width: 25%;
+    color: white;
+}
+
+.span9 {
+    color: red;
+}
+
+.center {
+    text-align: center;
+}
+
+.Mealify2 {
+    width: 40%;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.promo ul {
+    list-style-type: none;
+}
+
+.menu {
+    float: left;
+    width: 50%;
+    position: relative;
+}
+
+.promo {
+    float: right;
+    width: 50%;
+    position: relative;
+
+}
+
+.clr {
+    clear: both;
+}
+
+.con input {
+    padding-right: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.con button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: red;
+}
+
+.Mealify3 {
+    width: 25%;
+    color: white;
+}
+
+.Mealify1 {
+    float: left;
+    padding: 10px;
+    color: white;
+}
+
+.Mealify2 {
+    float: left;
+    padding: 10px;
+    color: white;
+}
+
+.Mealify3 {
+    float: left;
+    padding: 10px;
+}
+
+.Mealify {
+    background-image: url(../img/photo_2023-11-04_17-31-10.jpg);
+}
+
+.menu ul li:hover {
+    transform: translateX(10PX);
+    background-color: #222;
+}
+
+.promo ul li:hover {
+    transform: translateX(10PX);
+    background-color: #222;
+}
+
+.Mealify3 i {
+    color: red;
+}
+
+@media screen and (max-width:979px) and (min-width:768px) {
+
+    .Mealify3 {
+        width: 20%;
+        color: white;
+    }
+
+    .Mealify1 {
+        float: left;
+        padding: 10px;
+        color: white;
+    }
+
+    .Mealify2 {
+        float: left;
+        padding: 10px;
+        color: white;
+    }
+
+    .Mealify3 {
+        float: left;
+        padding: 10px;
+    }
+
+    .Mealify1 {
+        width: 20%;
+        color: white;
+
+    }
+
+    .Mealify2 {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width:767px) and (min-width:501px) {
+    .Mealify3 {
+        width: 15%;
+        color: white;
+    }
+
+    .Mealify1 {
+        float: left;
+        padding: 10px;
+        color: white;
+    }
+
+    .Mealify2 {
+        float: left;
+        padding: 10px;
+        color: white;
+    }
+
+    .Mealify3 {
+        float: left;
+        padding: 10px;
+    }
+
+    .Mealify1 {
+        width: 15%;
+        color: white;
+
+    }
+
+    .Mealify2 {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width:500px) and (min-width:0px) {
+    .Mealify3 {
+        width: 100%;
+        color: white;
+    }
+
+    .Mealify1 {
+        float: left;
+        padding: 10px;
+        color: white;
+    }
+
+    .Mealify2 {
+        float: left;
+        padding: 10px;
+        color: white;
+    }
+
+    .Mealify3 {
+        float: left;
+        padding: 10px;
+    }
+
+    .Mealify1 {
+        width: 100%;
+        color: white;
+
+    }
+
+    .Mealify2 {
+        width: 100%;
+    }
+}
+.contact{
+    margin-bottom: 60px;
+}
+
+
+.container button{
+    background-color: hsl( 0 , 84% , 44% );
+    color: white;
+    border-radius: 100vh;
+    padding:10px ;
+    
+
+}
+.your-name input{
+    padding-right: 350px;
+    padding-bottom: 20px;
+
+}
+.tan{
+    padding-right: 880px;
+    padding-bottom: 20px;
+}
+.form{
+    text-align:center ;
+}
+
+
+.but7:hover{
+    background-color:hsla(0, 84%, 44%, 0.79);
+}
+
+@media screen and (max-width:979px) and (min-width:768px) {
+    .your-name input{
+        padding-right: 250px;
+        padding-bottom: 20px;
+    
+    }
+    .tan{
+        padding-right: 580px;
+        padding-bottom: 20px;
+    }
+    .form{
+        text-align:center ;
+    }
+    .form textarea{
+        width: 100%; 
+    }  
+   
+}
+@media screen and (max-width:767px) and (min-width:501px) {
+    
+    .your-name input{
+        padding-right: 175px;
+        padding-bottom: 20px;
+    
+    }
+    .tan{
+        padding-right: 340px;
+        padding-bottom: 20px;
+    }
+    .form{
+        text-align:center ;
+    }
+    .form textarea{
+        width: 100%; 
+    }
+  
+}
+@media screen and (max-width:500px) and (min-width:0px) {
+    
+    .your-name input{
+        /* padding-right: 350px;
+        padding-bottom: 20px; */
+    width: 100%;
+    }
+    .tan{
+      
+        padding-right: 250px;
+        padding-bottom: 20px;
+    }
+    .form{
+        text-align:center ;
+    }
+ .form textarea{
+     width: 100%; 
+ }
+}
+.form{
+    margin-bottom: 60px;
+}
+.Mealify{
+    padding-top: 40px;
+}
+
+.wavy-border {
+    clip-path: polygon(0% 99%, 15% 94%, 33% 98%, 52% 95%, 70% 99%, 85% 96%, 100% 100%, 100% 0, 0 0);
+}
+.nav-link ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-link li {
+    margin-right: 20px;
+    position: relative;
+  }
+  
+  .nav-link a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+  }
+  
+  .nav-link a::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px; /* Adjust the line height as needed */
+    background-color: rgb(255, 0, 0); /* Adjust the line color */
+    transform: scaleX(0); /* Initially, make the line invisible */
+    transform-origin: left;
+    transition: transform 0.3s;
+  }
+  
+  .nav-link a:hover {
+    color: blue; /* Adjust the color when hovering */
+  }
+  
+  .nav-link a:hover::before {
+    transform: scaleX(1); /* Expand the line when hovering */
+  }
+  @media screen and (max-width:979px) and (min-width:768px) {
+   
+    .Sarah-Jhonson{
+        width: 25%;
+        text-align: center;
+        float: left;
+        margin: 10px;
+         position: relative;
+         overflow: hidden;
+         transition: transform1s;
+    }
+    .Walter-White{
+        width:25%;
+        text-align: center;
+        float: left;
+        margin: 10px;
+        position: relative;
+        overflow: hidden;
+         transition: transform1s;
+    }
+
+    .William-Anderson{
+        width: 25%;
+        text-align: center;
+        float: left;
+        margin: 10px;
+        position: relative;
+        overflow: hidden;
+        transition: transform1s;
+    }
+ }
+        
+   
+
+@media screen and (max-width:767px) and (min-width:501px) {
+    .Sarah-Jhonson{
+        width: 40%;
+        text-align: center;
+        float: left;
+        margin: 10px;
+         position: relative;
+         overflow: hidden;
+         transition: transform1s;
+    }
+    .Walter-White{
+        width:40%;
+        text-align: center;
+        float: left;
+        margin: 10px;
+        position: relative;
+        overflow: hidden;
+         transition: transform1s;
+    }    
+    .William-Anderson{
+        width: 40%;
+        text-align: center;
+        float: left;
+        margin: 10px;
+        position: relative;
+        overflow: hidden;
+        transition: transform1s;
+    }
+}
+@media screen and (max-width:500px) and (min-width:0px) {
+   
+    .Sarah-Jhonson{
+        width: 100%;
+        text-align: center;
+        float: left;
+        margin: 10px;
+         position: relative;
+         overflow: hidden;
+         transition: transform1s;
+    }
+    .Walter-White{
+        width:100%;
+        text-align: center;
+        float: left;
+        margin: 10px;
+        position: relative;
+        overflow: hidden;
+         transition: transform1s;
+    }
+    .William-Anderson{
+        width: 100%;
+        text-align: center;
+        float: left;
+        margin: 10px;
+        position: relative;
+        overflow: hidden;
+        transition: transform1s;
+    }
+}
+
+
+
+.img30{
+    width: 30%;
+    float: left;
+    margin-right: 40px;
+}
+.img31 img{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 50px;
+    border: white solid 5px;
+   
+    
+   
+}
+.img31{
+    position: relative;
+    overflow: hidden;
+}
+.lay{
+color: white;
+    position: absolute;
+    top:120%;
+    
+    left: 0;
+    background-color:rgba(0, 0, 0, 0.451);
+    width: 100%;
+    height: 300px;
+    transition: top .5s;
+    text-align: center;
+}
+.img31:hover .lay{
+    top: 0;
+    left: 2%;
+}
+
+.img32 img{
+    width: 100%;
+    border: white solid 5px;
+}
+.img32{
+    position: relative;
+    overflow:hidden;
+}
+.lay1{
+color: white;
+    position: absolute;
+    top:120%;
+    
+    left: 0;
+    background-color:rgba(0, 0, 0, 0.451);
+    width: 100%;
+   height: 100vh;
+    transition: top .5s;
+    text-align: center;
+}
+.img32:hover .lay1{
+    top: 0;
+    left: 2%;
+}
+
+
+
+
+
+.GALLERY{
+    background-color: whitesmoke;
+}
+.img33{
+    width: 30%;
+    float:left ;
+    margin-right: 40px;
+}
+.img34 img{
+    width: 100%;
+    height: 600px;
+    margin-bottom: 50px;
+    border: white solid 5px;
+}
+
+
+.img34{
+    position: relative;
+    overflow:hidden;
+}
+.lay2{
+color: white;
+    position: absolute;
+    top:120%;
+    
+    left: 0;
+    background-color:rgba(0, 0, 0, 0.451);
+    width: 100%;
+   height: 600px;
+    transition: top .5s;
+    text-align: center;
+}
+.img34:hover .lay2{
+    top: 0;
+    left: 2%;
+}
+.img35 img{
+    width: 100%;
+    height: 400px;
+    border: white solid 5px;
+}
+
+.img35{
+    position: relative;
+    overflow:hidden;
+}
+.lay3{
+color: white;
+    position: absolute;
+    top:120%;
+    
+    left: 0;
+    background-color:rgba(0, 0, 0, 0.451);
+    width: 100%;
+   height: 100vh;
+    transition: top .5s;
+    text-align: center;
+}
+.img35:hover .lay3{
+    top: 0;
+    left: 2%;
+}
+
+.img36{
+    width: 30%;
+    float: left;
+    margin-right: 40px;
+}
+.img37 img{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 50px;
+    border: white solid 5px;
+}
+
+.img37{
+    position: relative;
+    overflow:hidden;
+}
+.lay4{
+color: white;
+    position: absolute;
+    top:120%;
+    
+    left: 0;
+    background-color:rgba(0, 0, 0, 0.451);
+    width: 100%;
+   height: 300px;
+    transition: top .5s;
+    text-align: center;
+}
+.img37:hover .lay4{
+    top: 0;
+    left: 2%;
+}
+.img38 img{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 50px;
+    border: white solid 5px;}
+    .img38{
+        position: relative;
+        overflow:hidden;
+    }
+    .lay5{
+    color: white;
+        position: absolute;
+        top:120%;
+        
+        left: 0;
+        background-color:rgba(0, 0, 0, 0.451);
+        width: 100%;
+       height: 300px;
+        transition: top .5s;
+        text-align: center;
+    }
+    .img38:hover .lay5{
+        top: 0;
+        left: 2%;}
+  
+.img39 img{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 50px;
+    border: white solid 5px;
+}
+
+
+.img39{
+    position: relative;
+    overflow:hidden;
+}
+.lay6{
+color: white;
+    position: absolute;
+    top:120%;
+    
+    left: 0;
+    background-color:rgba(0, 0, 0, 0.451);
+    width: 100%;
+   height: 300px;
+    transition: top .5s;
+    text-align: center;
+}
+.img39:hover .lay6{
+    top: 0;
+    left: 2%;
+}
+.clr{
+    clear: both;
+}
+.GALLERY1{
+    text-align: center;
+    padding: 10px;
+}
+.chefs{
+    padding-bottom: 40px;
+}
+.shi{
+    color: red;
+}
+
+@media screen and (max-width:979px) and (min-width:768px) {
+   
+    .img30{
+        width: 25%;
+        float: left;
+        margin-right: 40px;
+    }
+    .img33{
+        width: 25%;
+        float:left ;
+        margin-right: 40px;
+    }
+    .img36{
+        width: 25%;
+        float: left;
+        margin-right: 40px;
+    }
+}
+
+@media screen and (max-width:767px) and (min-width:501px) {
+    .img30{
+        width: 40%;
+        float: left;
+        margin-right: 40px;
+    }
+    .img33{
+        width: 40%;
+        float:left ;
+        margin-right: 40px;
+    }
+    .img36{
+        width: 40%;
+        float: left;
+        margin-right: 40px;
+    }
+}
+@media screen and (max-width:500px) and (min-width:0px) {
+   
+    .img30{
+        width: 100%;
+        float: left;
+        margin-right: 40px;
+    }
+    .img33{
+        width: 100%;
+        float:left ;
+        margin-right: 40px;
+    } 
+    .img36{
+        width: 100%;
+        float: left;
+        margin-right: 40px;
+    }
+}
